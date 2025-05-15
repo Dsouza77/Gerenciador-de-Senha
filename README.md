@@ -5,8 +5,10 @@ Esse é um mini programa que fiz em Python. Resumidamente, ele irá gerar uma se
 ### Pré-requisitos
 
 - Python ![Python](https://img.icons8.com/?size=100&id=hGdCwhSHUe6L&format=png&color=000000)
-- os
-- Fernet
-- random
-- string
 
+### Bibliotecas necessárias
+
+- `os`
+- `Fernet` (do pacote `cryptography`)
+- `random`
+- `string`
