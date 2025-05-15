@@ -67,3 +67,6 @@ elif opcao == 3:
         lixo_encrypt = fernet.encrypt(lixo_byte)
         clear.write(lixo_encrypt)
         print("Senha excluida com sucesso!")
+
+else:
+    print("exit...")
