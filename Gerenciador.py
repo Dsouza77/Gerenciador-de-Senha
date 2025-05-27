@@ -43,6 +43,7 @@ if opcao == 1:
     with open("file.txt", "wb") as escreve:
         escreve.write(senha_criptografada)
         print("Senha criptografada com sucesso!\n")
+        input("")
 
 elif opcao == 2:
     try:
@@ -55,9 +56,11 @@ elif opcao == 2:
         #descriptografa o conteúdo
             senha_descriptografada = fernet.decrypt(conteudo)
             print(f"Senha descriptografada: {senha_descriptografada.decode()}")
+            input("")
 
     except Exception as e:
         print("Erro ao descriptografar", e)
+        input("")
 
 elif opcao == 3:
     #Pegar oque está escrito no file
@@ -67,6 +70,8 @@ elif opcao == 3:
         lixo_encrypt = fernet.encrypt(lixo_byte)
         clear.write(lixo_encrypt)
         print("Senha excluida com sucesso!")
+        input("")
 
 else:
     print("exit...")
+    input("")
