@@ -23,7 +23,7 @@ else:
 
 #interação com o usuário
 print("\n=================KEY MANAGER=================")
-print("Gerar nova senha: 1\nConsulta senha: 2\nExcluir senha: 3\n")
+print("Gerar nova senha: 1\nConsultar senha: 2\nExcluir senha: 3\n")
 opcao = int(input("/: "))
 
 if opcao == 1:
